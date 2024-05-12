@@ -76,6 +76,12 @@ def tree_includes_iteratively(root: Node, target: str) -> bool:
     return False
 
 
+#                  a
+#               /    \
+#              b     c
+#           /   \     \
+#          d    e      f
+
 def tree_includes_recursive(root: Node, target: str) -> bool:
     """
     recursive version
@@ -147,6 +153,12 @@ def tree_min_value_iterative(root: Node) -> int:
     
     return min_value
 
+
+#                  1
+#               /    \
+#              2     4
+#           /   \     \
+#          8    18      13
 
 def tree_min_value_recursive(root: Node) -> int:
     """
